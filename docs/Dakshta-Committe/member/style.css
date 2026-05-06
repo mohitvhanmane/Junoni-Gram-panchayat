@@ -1,0 +1,76 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: "Noto Sans Devanagari", sans-serif;
+    padding: 20px;
+}
+
+/* Main Box */
+.container {
+    width: 98%;
+    margin: auto;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+/* Header Section */
+.header {
+    background: #e6b497;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.header a {
+    color: blue;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background: #7d1717;
+    color: white;
+}
+
+th {
+    padding: 16px;
+    font-size: 22px;
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 14px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+tbody tr:hover {
+    background: #eeeeee;
+}
