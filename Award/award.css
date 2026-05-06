@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    
+    color: rgb(8, 8, 8);
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  h2 {
+    color: #cc9900;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .award-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .award-card {
+    background: #ffe4ec;
+    border: 2px solid #e090a0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .award-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .award-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .award-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  footer {
+    background-color: #f08c53;
+    color: white;
+    padding: 10px;
+    font-size: 7px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.header-container {
+  background-color: #edb79d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  flex-wrap: wrap;
+}
+
+.header-container h3 {
+  margin: 0;
+  font-size: 18px; /* Smaller size for ग्रामपंचायत आळसंद */
+  font-weight: normal;
+}
+
+.header-container h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 26px; /* Main title is bigger */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Responsive Image */
+.header-container img {
+  width: 60px;  /* Smaller image */
+  height: auto;
+  max-width: 100%;
+}
